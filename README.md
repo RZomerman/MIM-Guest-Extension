@@ -7,6 +7,7 @@ This repo will provide the required Extension DLL for Microsoft Identity Manager
 
 If you accept all defaults, copy the 2 files from the bin folder to "c:\program files\Microsoft Identity Manager\2010\Synchronization Service\Extensions" and configure MIM according to the guide.
 
+The source code is avaiable to adjust / enhance the flows
 
 A custom DLL has been created to support a few attribute flows that cannot be direct. 
 The DLL Extension must be used for the AAD Import MA (AADMA) as well as the global options for provisioning. The DLL therefore has 2 cs extensions, an MaExtension (for the AADMA) and an MvExtsion.cs

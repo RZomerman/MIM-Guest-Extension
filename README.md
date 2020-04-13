@@ -4,6 +4,8 @@ As an organization that uses Azure Active Directory (Azure AD) B2B collaboration
 On-premises Windows-Integrated Authentication or Kerberos-based applications, published via the Azure AD application proxy or other gateway mechanisms requires each user to have their own AD DS account, for identification and delegation purposes.
 This guide will provide step-by-step instructions for deploying Microsoft Identity Manager (MIM) 2016 to synchronize Azure AD Guest users to your on-premises Active Directory Domain Services on a fresh server that has not had FIM or MIM previously deployed.
 
+If you accept all defaults, copy the 2 files from the bin folder to "c:\program files\Microsoft Identity Manager\2010\Synchronization Service\Extensions" and configure MIM according to the guide.
+
 
 A custom DLL has been created to support a few attribute flows that cannot be direct. 
 The DLL Extension must be used for the AAD Import MA (AADMA) as well as the global options for provisioning. The DLL therefore has 2 cs extensions, an MaExtension (for the AADMA) and an MvExtsion.cs

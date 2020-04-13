@@ -2,7 +2,8 @@
 
 As an organization that uses Azure Active Directory (Azure AD) B2B collaboration capabilities to invite guest users from partner organizations to your Azure AD, you can now provide these B2B users access to on-premises apps. These on-premises apps can use SAML-based authentication or Integrated Windows Authentication (IWA) with Kerberos constrained delegation (KCD).
 On-premises Windows-Integrated Authentication or Kerberos-based applications, published via the Azure AD application proxy or other gateway mechanisms requires each user to have their own AD DS account, for identification and delegation purposes.
-This guide will provide step-by-step instructions for deploying Microsoft Identity Manager (MIM) 2016 to synchronize Azure AD Guest users to your on-premises Active Directory Domain Services on a fresh server that has not had FIM or MIM previously deployed.
+
+This repo will provide the required Extension DLL for Microsoft Identity Manager (MIM) 2016 Synchronization Service to synchronize Azure AD Guest users to your on-premises Active Directory Domain Services.
 
 If you accept all defaults, copy the 2 files from the bin folder to "c:\program files\Microsoft Identity Manager\2010\Synchronization Service\Extensions" and configure MIM according to the guide.
 

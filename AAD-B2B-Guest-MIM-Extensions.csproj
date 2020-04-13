@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>AAD_B2B_Guest_MIM_Extensions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.MetadirectoryServicesEx">
+      <HintPath>lib\Microsoft.MetadirectoryServicesEx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

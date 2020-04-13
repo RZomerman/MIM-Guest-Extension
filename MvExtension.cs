@@ -16,7 +16,7 @@ namespace AAD_B2B_Guest_MIM_Extensions
             {
                 message = string.Format(message, args);
 
-                System.Diagnostics.Debug.WriteLine("[predica] " + message);
+                System.Diagnostics.Debug.WriteLine("[MimExtension] " + message);
             }
         }
         public void Provision(MVEntry mventry)
@@ -35,10 +35,8 @@ namespace AAD_B2B_Guest_MIM_Extensions
                     adCSentry.DN = dn;
                     string pwd = GenerateRandomString(32);
                     adCSentry["unicodePwd"].Value = pwd;
-                    Log.Debug(pwd);
-
+                    //Log.Debug(pwd);
                     adCSentry["SamAccountName"].StringValue = mventry["AccountName"].StringValue;
-
                     adCSentry.CommitNewConnector();
                 }
             }

@@ -37,3 +37,8 @@ The first thing that will be done is creating the distinguishedName of the user.
 The accountName in the Metaverse will be set as the sAMAccountName and in order to avoid users to forcing them to change passwords on login, the pwdLastSet will be set to -1 (which is interpreted as current time)
 
 Next, as users are created and a password for the user will not have to be known by the user a random password (32 characters) will be created and set to the user. For this the GenerateRandomString function is available in the Extension.
+
+## Next: Installing and configuring the MA's
+- [The Active Directory MA with DLL](installing-ADMA-dll-version.md)
+- [The Graph API MA with DLL](installing-GraphAPIMA-dll.md)
+- [Configuring Run Profiles](configuring-MA-runprofiles-dll.md)

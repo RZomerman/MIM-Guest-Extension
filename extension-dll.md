@@ -38,6 +38,11 @@ The accountName in the Metaverse will be set as the sAMAccountName and in order 
 
 Next, as users are created and a password for the user will not have to be known by the user a random password (32 characters) will be created and set to the user. For this the GenerateRandomString function is available in the Extension.
 
+### More info
+
+More information on the DLL can be found on 
+- [Custom DLL](extension-dll-overview.md)
+
 ## Next: Installing and configuring the MA's
 - [The Active Directory MA with DLL](installing-ADMA-dll-version.md)
 - [The Graph API MA with DLL](installing-GraphAPIMA-dll.md)

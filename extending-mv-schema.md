@@ -31,7 +31,11 @@ The Azure AD Guest account configuration will use an attributed called userPrinc
 6. Click **OK** to add
 7. Close the Synchronization Service Manager
 
-## Next: Install MIM portal
-As the rules will be created using the MIM portal, this will need to be installed. This includes:
+## Next: Install MIM portal (option 1)
+As the rules in option 1 will be created using the MIM portal, this will need to be installed. This includes:
 - [Installing SharePoint 2016](installing-sharepoint-2016.md)
 - [Installing Microsoft Identity Manager Portal](install-mim-portal.md)
+
+## Next: Install Management Adapters (option 2)
+Option 2 uses an extension DLL and creates the base rules directly in the synchronization engine:
+- [The extension DLL](extension-dll.md)

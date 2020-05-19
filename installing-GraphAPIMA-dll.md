@@ -150,4 +150,4 @@ _MIM allows you to filter out objects based on an attribute filter. In this scen
 
 ## Next: Creating Run Profiles for the Management Agents
 The 2 Management Agents have been added now, but each of them needs to have a "run profile" where an import, synchronization or export is created.
-- [Creating Run Profiles for DLL](configuring-MA-runprofiles.md)
+- [Creating Run Profiles for DLL](configuring-MA-runprofiles-dll.md)

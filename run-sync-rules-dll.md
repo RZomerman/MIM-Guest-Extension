@@ -30,6 +30,12 @@ You should have completed the following steps already:
 - [Synchronization Rule 2: Import Active Directory Guest users](rule2-import-from-ad.md)
 - [Synchronization Rule 3: Create Guest User account in Active Directory](rule3-export-to-ad.md)
 
+
+## Order of importing ##
+When running with the DLL option, make sure to run the ADMA MA import and synchronization first.. this will load the OU into the system for the OU to use
+
+Note: Make sure the ADMA is actually called ADMA to avoid the DLL giving an error - if you need another name for the MA, make sure to rebuild the DLL in Visual Studio with the correct name
+
 ## Importing from Azure AD to the Metaverse
 As we have a guest user in AAD, we can run the Import on the AADMA:
 

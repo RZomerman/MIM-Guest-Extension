@@ -32,7 +32,7 @@ You should have completed the following steps already:
 
 
 ## Order of importing ##
-When running with the DLL option, make sure to run the ADMA MA import and synchronization first.. this will load the OU into the system for the OU to use
+When running with the DLL option, make sure to run the ADMA MA import and synchronization first.. this will load the OU into the system for the DLL to use
 
 1. Open Synchronization Service Manager
 2. Go to the **Management Agents** tab 

@@ -34,6 +34,16 @@ You should have completed the following steps already:
 ## Order of importing ##
 When running with the DLL option, make sure to run the ADMA MA import and synchronization first.. this will load the OU into the system for the OU to use
 
+1. Open Synchronization Service Manager
+2. Go to the **Management Agents** tab 
+3. Right click AAMA and click **Run**
+4. Select **Full Import (Stage Only)**
+
+>_You should see Adds in the statistics window_
+
+5. Right click ADMA and click **Run**
+6. Select **Full Synchronization**
+
 Note: Make sure the ADMA is actually called ADMA to avoid the DLL giving an error - if you need another name for the MA, make sure to rebuild the DLL in Visual Studio with the correct name
 
 ## Importing from Azure AD to the Metaverse

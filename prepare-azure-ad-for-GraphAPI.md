@@ -31,7 +31,7 @@ In the Azure AD tenant there will be regular users and Guest users. To access th
 ![Azure AD AppID](./images/2.AADAppID.png)
 
 5. On the left windowpane go to **API permissions** and select **+ Add a permission**. On the _Select an API window_, select **Microsoft Graph**
-6. Select the **Application permissions** and scroll down to the _User permissions_ to select: **User.Export.All** and **User.Read.All** then select **Add permissions**
+6. Select the **Application permissions** and scroll down to the _User permissions_ to select: **Directory.Read.All**, **User.Export.All** and **User.Read.All** then select **Add permissions**
 
 ![Azure AD GraphAPI permissions](./images/3.AADGraphPermissions.png)
 

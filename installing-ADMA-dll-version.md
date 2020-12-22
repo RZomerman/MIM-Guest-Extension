@@ -95,12 +95,12 @@ The Active Directory management agent is a connector for AD Domain Services. To 
 
 > |Data source attribute | Flow Direction | Metaverse attribute |Allow null |
 > |-------------------|:------------------|---------------------|-----------:
-> |displayName | Import| displayname| true |
+> |displayName | Import| displayname|  |
 > |employeeType | Import | employeetype | |
-> |givenName | Import | firstname | true |
-> |Mail| Import | Email | true |
+> |givenName | Import | firstname |  |
+> |Mail| Import | Email |  |
 > |sAMAccountName | Import | accountname  | |
-> |Sn | Import | lastname | true |
+> |Sn | Import | lastname |  |
 > |userPrincipalName | Import | userPrincipalName | |
 > |displayName | Export | displayname | Allow |
 > |employeeType | Export | employeetype |

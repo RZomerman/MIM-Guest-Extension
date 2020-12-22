@@ -9,7 +9,7 @@ ms.service:
 ms.subservice:
 ---
 
-# Setup MIM for AAD Guest Accounts - Active Directory MA with DLL
+# Setup MIM for AAD Guest Accounts - Azure Active Directory MA with DLL
 
 ## Prerequisits
 This chapter will install the Active Directory Management Agent to import the AD (user) objects into the metaverse and to create new users in AD and will use the Extension DLL for the advanced attribute flows:
@@ -37,7 +37,7 @@ In order to read the users from Azure AD, we need to install the Graph Connector
 4. Under the services window find the **Forefront Identity Manager Synchronization Service** right click and select **Restart** 
 
 ## Create the New Management Agent 
-1. In the _Synchronization Service Manager_ UI, select **Connectors** and **Create**. Select **Graph (Microsoft)** and give it a descriptive name (AADMA) 
+1. In the _Synchronization Service Manager_ UI, select **Management Agents** and **Create**. Select **Graph (Microsoft)** and give it the name AADMA (This is a fixed value when using the DLL) 
 
 ![Graph API MA - AADMA Create](./images/1.AADMACreate.png)
 

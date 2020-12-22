@@ -36,7 +36,7 @@ When running with the DLL option, make sure to run the ADMA MA import and synchr
 
 1. Open Synchronization Service Manager
 2. Go to the **Management Agents** tab 
-3. Right click AAMA and click **Run**
+3. Right click ADMA and click **Run**
 4. Select **Full Import (Stage Only)**
 
 >_You should see Adds in the statistics window_

@@ -114,11 +114,9 @@ _MIM allows you to filter out objects based on an attribute filter. In this scen
 12.	A static value will also be required for the destination OU for this: 
 > - Select _Object Type_: **user** in the top column
 > - Select **user** as the _data source object_ type in the build attribute flow
-> - Select **ou** as the Data source attribute
+> - Select **ou** as the Metaverse attribute
 > - Select **Advanced** as the mapping type
 > - Select **Import** as the Direction
-> - Set the _Metaverse object_ type to **person**
-> - Select **Street** as the _Metaverse Attribute_
 > - Click **New**
 > - In the pop-up, select the **Constant** check box
 > - Paste the value of the **dn** of the target OU (OU=AAD Guest Users,DC=Contoso,DC=local)
